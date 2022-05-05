@@ -12,9 +12,11 @@ class Oprations {
             head = node;
             tail = node;
         }else {
-            Node temp = head;
-            this.head = node;
-            node.address = temp;
+            Node temp=head;
+            while (temp.address!=null){
+                temp=temp.address;
+            }
+            temp.address=node;
         }
     }
     /*
