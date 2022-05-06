@@ -39,6 +39,9 @@ public class LinkedList {
                 case 4:
                     callingMethods.deleteNode();
                     break;
+                case 5:
+                    callingMethods.deleteLastNode();
+                    break;
 
                 default:
                     System.out.println("Enter Correct choice");

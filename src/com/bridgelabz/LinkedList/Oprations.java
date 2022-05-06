@@ -85,6 +85,25 @@ class Oprations {
             head = head.address;
         }
     }
+    static Node removeLastNode()
+    {
+        if (head == null)
+            return null;
+
+        if (head.address == null) {
+            return null;
+        }
+
+        // Find the second last node
+        Node second_last = head;
+        while (second_last.address.address != null)
+            second_last = second_last.address;
+
+        // Change next of second last
+        second_last.address = null;
+
+        return head;
+    }
 
 
     /*
