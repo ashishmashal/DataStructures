@@ -36,7 +36,9 @@ public class LinkedList {
                     callingMethods.InBetween();
                    // oprations.print();
                     break;
-
+                case 4:
+                    callingMethods.deleteNode();
+                    break;
 
                 default:
                     System.out.println("Enter Correct choice");

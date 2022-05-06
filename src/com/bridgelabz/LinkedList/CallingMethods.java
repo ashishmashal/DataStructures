@@ -25,7 +25,10 @@ public class CallingMethods {
         oprations.print();
 
     }
-
+    public void deleteNode(){
+        oprations.pop();
+        oprations.print();
+    }
 
 }
 

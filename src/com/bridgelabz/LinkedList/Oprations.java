@@ -79,7 +79,12 @@ class Oprations {
         }
         size++;
     }
-
+    public void pop(){
+        if (head != null){
+            Node temp = head;
+            head = head.address;
+        }
+    }
 
 
     /*
