@@ -19,6 +19,7 @@ public class LinkedList {
                      1 =  Adding The data\s
                      2 = Appending The Data\s
                      3 = Insert In Between \s
+                     4 = Delete The First Node \s          
                     
                   
                     """);
