@@ -5,14 +5,12 @@ public class CallingMethods {
         oprations.add(70);
         oprations.add(30);
         oprations.add(56);
-        oprations.print();
 
     }
     public void appending(){
         oprations.appending(56);
         oprations.appending(30);
         oprations.appending(70);
-        oprations.print();
     }
     public void InBetween(){
         oprations.addNode(56);
