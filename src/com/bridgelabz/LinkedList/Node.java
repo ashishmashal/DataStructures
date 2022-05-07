@@ -9,8 +9,8 @@ public class Node {
         this.address = null;
     }
 
-    @Override
-    public String toString() {
-        return ("Node" +  "Data" + data + "Address"+ address );
-    }
+    //@Override
+//  //  public String toString() {
+//        return ("Node" +  "Data" + data + "Address"+ address );
+//    }
 }
