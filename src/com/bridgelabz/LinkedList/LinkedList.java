@@ -19,8 +19,9 @@ public class LinkedList {
                      1 =  Adding The data\s
                      2 = Appending The Data\s
                      3 = Insert In Between \s
-                     4 = Delete First Node \s
-                     5 = Delete the Last Node \s
+                     4 = Delete The 1st Node \s 
+                     5 = Delete The Last Node \s 
+
                     """);
             int menu = scanner.nextInt();
             switch (menu) {
